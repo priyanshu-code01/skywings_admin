@@ -9,7 +9,7 @@ const AdminLayout = () => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
 
   // Agar user logged in nahi hai, ya admin nahi hai, toh bhaga do
-  if (!adminUser || adminUser.email !== "admin@skywings.com") {
+  if (!adminUser || adminUser.email !== "priyanshu.code01@gmail.com") {
     return <Navigate to="/login" />;
   }
 
