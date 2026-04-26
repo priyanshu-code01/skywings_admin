@@ -21,7 +21,7 @@ const Login = () => {
       const user = response.data.user;
 
       // Strict Check: Sirf Admin ko allow karo
-      if (user.email !== "admin@skywings.com") {
+      if (user.email !== "priyanshu.code01@gmail.com") {
         setError("Access Denied: Authorized personnel only.");
         dispatch({ type: "SET_LOADING", payload: false });
         return;
